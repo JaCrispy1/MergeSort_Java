@@ -6,13 +6,13 @@ import java.util.Scanner;
         // Asking user for the input
         ArrayList getInput(ArrayList<Integer> al) {
             System.out.println("Welcome to   Mergesort:");
-            System.out.println("#==========================================================#");
+            System.out.println("#===========================================================#");
             Scanner sc = new Scanner(System.in);
             System.out.print("What is the size of your Array? ");
             int first= sc.nextInt();
             System.out.println();
             System.out.println("Input Space");
-            System.out.println("#=========================================================#");
+            System.out.println("#==========================================================#");
             for (int i = 0; i < first; i++) {
                 System.out.print("Enter "  + "integer of array"+" in position " + (i +1) +":");
                 int aal = sc.nextInt();
